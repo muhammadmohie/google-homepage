@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin: 20px;
+}
+.topLeft {
+    display: flex;
+    justify-content: center;
+}
+.topRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.appsIcon {
+    font-size: 14px;
+    margin-right: 15px;
+    color:dimgray;
+}
+.appsIcon:hover {
+    border-radius: 50%;
+    background-color:rgba(128, 128, 128,0.08);
+    color:dimgray !important;
+}
+.signIn {
+    display: flex;
+    align-items:center;
+    background-color: dodgerblue;
+    font-family: arial,sans-serif;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+.signIn:hover {
+    background-color: rgba(30, 144, 255,0.8);
+    cursor: pointer;
+}
+.logo {
+    display: block;
+    width: 20%;
+    max-width: 100%;
+    margin: 5% auto 0px auto;
+    margin-right: auto;
+}
+.search-box {
+    display: flex;
+    margin: 50px auto;
+    padding: 10px;
+    width: 40%;
+    height: 25px;
+    border-radius: 40px;
+    border: solid 1px gainsboro;
+    justify-content: center;
+    align-items: center;
+}
+.search-box:hover {
+    border:solid 1px whitesmoke;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.txtField {
+    width: 85%;
+    font-size: 16px;
+    border: none;
+    outline: 0;
+    line-height: 20px;
+}
+.search-icon {
+    color: rgba(0, 0, 0,0.3);
+    float: left;
+    padding: 10px;
+}
+.mic-btn {
+    color: rgba(0, 0, 0,0.3);
+    float: right;
+    padding: 10px;
+}
+.submitBtns {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+}
+.sbmt {
+    margin: auto;
+    padding: 15px;
+    background-color: #f1f1f1;
+    color: dimgray;
+    border-radius: 5%;
+    border: solid 1px white;
+    box-shadow: none;
+}
+.sbmt:hover {
+    font-family: arial,sans-serif;
+    background-color: #f1f1f1;
+    border: solid 1px gainsboro;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-right: 30px;
+    border-top: solid 1px gainsboro;
+    width: 97%;
+    height: 3%;
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+.bottomRight {
+    margin-left: auto;
+}
+a {
+    font-family: arial,sans-serif;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    color:dimgray;
+    text-decoration: none;
+}
+a:hover {
+    color:gray;
+    text-decoration: underline;
+}
